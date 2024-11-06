@@ -24,6 +24,7 @@ function App() {
   return (
     <main>
       <h1>Hello world</h1>
+      <h1>Hello coucou</h1>
       {dogs.length ? (
         dogs.map((dog) => <Dog key={dog.id} dog={dog} />)
       ) : (
